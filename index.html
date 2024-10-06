@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguridad de la Información</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #fff;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            align-items: center;
+        }
+        .profile-pic {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .profile-info {
+            display: flex;
+            align-items: center;
+        }
+        header a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            margin: 0 10px;
+        }
+        .main-section {
+            display: flex;
+            align-items: center;
+            padding: 40px 0;
+        }
+        .main-section img {
+            width: 300px; 
+            height: auto;
+            border-radius: 8px;
+            margin-right: 40px;
+        }
+        .main-section .text {
+            max-width: 60%;
+        }
+        .main-section h1 {
+            font-size: 2.5rem;
+            margin-top: 0;
+        }
+        .main-section p {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.6;
+        }
+        .sections {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+        .sections div {
+            flex: 1;
+            margin: 0 10px;
+            max-width: 200px; 
+            text-align: center; 
+        }
+        .sections img {
+            width: 100%; 
+            height: auto;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .sections h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+        footer {
+            padding: 20px 0;
+            background-color: #fff;
+            text-align: center;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .btnMain {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #e4c214;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="profile-info">
+            <img src="img/WhatsApp.jpg" alt="Perfil" class="profile-pic">
+            <span>ALUMNO: VARGAS REYES MIGUEL ANGEL</span>
+        </div>
+        <nav>
+            <a class="btn" href="seccion1.html">SECCIÓN 1</a>
+            <a class="btn" href="seccion2.html">SECCIÓN 2</a>
+            <a class="btn" href="seccion3.html">SECCIÓN 3</a>
+            <a class="btnMain" href="trabajo issac.html">INICIO</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="main-section">
+            <img src="img/download.jpeg" alt="Seguridad de la Información">
+            <div class="text">
+                <h1>Seguridad de la Información</h1>
+                <p>
+                    ¿Qué es la seguridad de la información? La seguridad de la información es el conjunto de medidas y prácticas que buscan proteger la confidencialidad, integridad y disponibilidad de los datos. En otras palabras, es el escudo que protege tu información personal, empresarial de cualquier otro tipo de los ciberataques, el acceso no autorizado y la pérdida de datos.
+                    <br><br>
+                    ¿Por qué es importante la seguridad de la información? En la era digital, la información es un activo valioso. Ya sea tu información personal, los datos de una empresa o los registros gubernamentales, todos son susceptibles de ser atacados.
+                </p>
+                <a class="btnMain" href="#">INICIO</a>
+            </div>
+        </section>
+
+        <section class="sections">
+            <div>
+                <a href="seccion1.html">
+                    <img src="img/download1.jpeg" alt="Sección 1">
+                    <h3>Ataques ciberneticos (Sección 1)
+                    </h3>
+                </a>
+            </div>
+            <div>
+                <a href="seccion2.html">
+                    <img src="img/download2.jpeg" alt="Sección 2">
+                    <h3>Confidencialidad de la informacion (Sección 2)
+                        </h3>
+                </a>
+            </div>
+            <div>
+                <a href="seccion3.html">
+                    <img src="img/download3.jpeg" alt="Sección 3">
+                    <h3>Principios de seguridad de la información (Seccion 3)
+                    </h3>
+                </a>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
